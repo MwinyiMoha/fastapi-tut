@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-tut"
+version = "0.1.0"
+description = "An example API with Python and FastAPI"
+authors = ["Mohammed Mwijaa <mm.mwijaa@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.61.1"
+uvicorn = "^0.12.2"
+motor = "^2.3.0"
+python-slugify = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
